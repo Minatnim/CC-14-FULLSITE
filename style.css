@@ -49,6 +49,9 @@ header nav {
   display: flex;
   align-items: flex-end;
 }
+header nav ul li {
+  cursor: pointer;
+}
 header a {
   text-decoration: none;
   text-transform: uppercase;
@@ -76,7 +79,6 @@ header .branding span {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  gap: ;
 }
 .showcase h1 {
   font-size: 55px;
